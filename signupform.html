@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up - Thinkers</title>
+    <link rel="stylesheet" href="signup.css">
+    <!-- <style>
+        #signup{
+            color:rgb(223, 43, 73);
+        }
+    </style> -->
+</head>
+<body>
+    <form id="myform">
+
+        <!-- Inline css: <hl style='color:red,'>Signup form</h1> -->
+        <h2 id="signup">Get started on Thinkers</h2>
+        <label>Username</label>
+        <input type="text" placeholder="Enter Username" required />
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email" required />
+
+        <label>Mobile Number</label>
+        <input type="number" placeholder="Enter Mobile Number" required />
+
+        <label>Password</label>
+        <input type="password" placeholder="Enter Mobile number" required />
+
+        <div id="gender">
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+        </div>
+
+        <select>
+            <option selected hidden>Select any one option</option>
+            <option value="insta">Instagram</option>
+            <option value="fb">Facebook</option>
+            <option value="'git">Github</option>
+            <option value="linkedin">LinkedIn</option>
+        </select>
+
+        <div id="check">
+            <input type="checkbox"/>
+            <p>I accept the rules and regulation</p>
+        </div>
+
+        <textarea></textarea>
+
+        <button>Sign Up</button>
+    </form>
+    
+</body>
+</html>

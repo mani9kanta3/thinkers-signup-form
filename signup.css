@@ -1,0 +1,69 @@
+*{
+    font-family: 'Segoe UI';
+}
+
+
+#myform{
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+    width: 500px;
+    margin-left: 29%;
+    margin-top: 30px;
+    padding: 40px;
+}
+
+#signup{
+    color:#FF6002;
+}
+
+#myform label {
+    margin-top: 10px;
+    margin-bottom: 6px;
+}
+
+#myform input{
+    padding: 9px;
+    border-radius: 10px;
+    border: 0.6px solid grey;
+}
+
+#gender{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#myform select{
+    padding: 9px;
+    border-radius: 10px;
+    border: 0.6px solid grey;
+    margin-bottom: 10px;
+}
+
+#check{
+    display: flex;
+    flex-direction: row;
+}
+
+#myform textarea{
+    margin-bottom: 20px;
+}
+
+#myform button{
+    background-color: #FF6002;;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#myform button:hover{
+    cursor: pointer;
+    background-color: #f18d4f;
+    color: white;
+    border: 1px solid black;
+}
